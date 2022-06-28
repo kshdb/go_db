@@ -215,9 +215,9 @@ func readAndParseCsv(path string) ([][]string, error) {
 		//return nil, fmt.Errorf("error opening %s\n", path)
 		fmt.Println("打开csv或txt文件出错", err.Error())
 	}
-	//判断当前编码
-	_bianma := determineEncodeing(csvFile)
-	fmt.Print("当前编码是", _bianma)
+	// 判断当前编码
+	//_bianma := determineEncodeing(csvFile)
+	//fmt.Print("当前编码是", _bianma)
 
 	var rows [][]string
 
