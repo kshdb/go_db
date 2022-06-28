@@ -16,7 +16,7 @@ func main() {
 			Pwd:    "haosql",
 			IP:     "127.0.0.1",
 			Port:   3306,
-			DbName: "test2",
+			DbName: "test1",
 		},
 		QuerySql: "select id,title,path from post limit 10",
 	}
